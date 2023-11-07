@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: auto;
+}
+
+input {
+  margin-bottom: 5px;
+}
+
+.list_item{
+  width: 30%;
+  list-style: none;
+  margin-top: 10px;
+}
+
+
+.list_item span {
+  margin-right: 20px;
+  background-color: aquamarine;
+   display: flex;
+   flex-direction: column;  
+}
+
+
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
